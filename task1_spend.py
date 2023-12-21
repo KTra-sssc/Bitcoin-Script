@@ -11,8 +11,9 @@ address = "mgQXSQAoFbRtkn9t6Bawcvt79XXv42u67w"
 txIn = c.unspent(str(address))
 
 # Create a transaction output to the desired destination
-txOut = [{'value': 100000, 'address': to_addr}]
 to_addr = "tb1qrtzcq4xhm9dsy8f8a4yfs4c92cpj3l3kg2tzae"
+txOut = [{'value': 10000, 'address': to_addr}]
+
 
 # Create the transaction
 tx = c.mktx(txIn,txOut)
