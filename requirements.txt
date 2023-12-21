@@ -1,0 +1,2 @@
+chainside_btcpy==0.6.5
+cryptos==2.0.9
